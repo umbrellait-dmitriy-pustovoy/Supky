@@ -26,7 +26,7 @@
 
 .search-icon::before {
   content: "";
-  position: absolute;
+  position: relative;
   right: 0;
   top: 50%;
   height: 25px;
@@ -34,4 +34,10 @@
   background: #d7d7d7;
   transform: translateY(-50%);
   border-radius: 50%;
+}
+
+.header_action {
+  ul {
+    display: flex;
+  }
 }
